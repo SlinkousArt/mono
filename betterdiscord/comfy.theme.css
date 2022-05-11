@@ -39,7 +39,7 @@
 *   ℹ️ : This background isn't and cannot be linked to the new Nitro banners or USRBG 
 */
 
---status-background: url('https://i.imgur.com/ODa8LKK.jpg');
+--status-background: url('https://flurly.onrender.com/dl?filename=image.jpg&url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fplaceholder-1-99c90.appspot.com%2Fo%2FeadDJQspuMPeDej3FHA8lvrBOyi2%252F-N-O_jbUcNYtgz_y7bHQ%3Falt%3Dmedia%26token%3D6116bdfb-d0ba-4c06-ae9c-e1257c387ed6');
 
 /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
 *
@@ -53,7 +53,7 @@
 --user-buttons-spacing: 8px;
 
 /* Color - Default value : #096DC0 */
---user-buttons-color: #096DC0;
+--user-buttons-color:   #8c977d;
 
 /* ═══════『 ⭕ Roundness settings 』═══════
 *
@@ -69,7 +69,7 @@
 --status-radius: 3px; 
 
 /* Servers - Default value : 8px */
---server-radius: 8px;
+--server-radius:    20px;
 
 /* ═══════『 😃 Colored emoji picker 』═══════
 *   Change the value to "100%" if you want the default one */
@@ -79,7 +79,7 @@
 /* ═══════『 📜 Server/channel list 』═══════ */
 
 /* Mention - Default value : #F04747 */
---mention-color: #F04747;
+--mention-color:  rgba(173,69,73,1);
 
 /* Unread - Default value : #7289DA */
 --unread-color: #7289DA;
@@ -87,7 +87,7 @@
 /*  『 🔴 Mention colors in chat 』 */
 
 /* Bar on the right - Default value : #C66262 */
---mention-color-bar: #C66262;
+--mention-color-bar:  #b66467;
 
 /* Background - Default value : #C662621F */
 --mention-color-background: #C662621F;
@@ -98,30 +98,30 @@
 /* ═══════『 💬 Chat buttons 』═══════ */
 
 /* Default value : #7289DA */
---chat-buttons: #7289DA;
+--chat-buttons:  #8c977d;
 
 /* ═══════『 💬 SpotifyControls seek bar 』═══════
 *   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
 
 /* Default value : #1EDC62 */
---spotify-color: #1EDC62;
+--spotify-color:  #8c977d;
 
 /* ═══════『 🟢 Status 』═══════ */
 
 /* Online - Default value : #43B581 */
---online: #43B581;
+--online:  #8c977d;
 
 /* Iddle - Default value : #FAA61A */
 --iddle: #FAA61A;
 
 /* Do Not Disturb - Default value : #F04747 */
---dnd: #F04747;
+--dnd:  #b66467;
 
 /* Offline - Default value : #747F8D */
 --offline: #747F8D;
 
 /* Streaming - Default value : #593695 */
---streaming: #593695;
+--streaming:  #a988b0;
 
 /* ═══════『 🔰 User popout 』═══════ */
 
@@ -129,7 +129,7 @@
 --playing: #7289da;
 
 /* Listening wave color */
---listening: #1db653;
+--listening:  #8c977d;
 
 /* Role circle - Default value : 5px */
 --role-circle: 5px;
@@ -142,26 +142,26 @@
 }
  
 .theme-dark {
-    --background-primary: #23283D;
-    --background-secondary: #1E2233;
-    --background-secondary-alt: #191F2E;
-    --background-tertiary: #101320;
-    --background-mobile-primary: #23283D;
-    --background-mobile-secondary: #1E2233;
-    --channeltextarea-background: #191F2E;
-    --background-accent: #7289DA;
+    --background-primary: #282828;
+    --background-secondary: #222222;
+    --background-secondary-alt: #1E1E1E;
+    --background-tertiary: #131313;
+    --background-mobile-primary: #282828;
+    --background-mobile-secondary: #222222;
+    --channeltextarea-background: #1E1E1E;
+    --background-accent: #8c977d;
     --background-message-hover: transparent;
     --background-modifier-hover: #00000010;
     --background-modifier-active: #0000001a;
     --background-modifier-selected: #0000001f;
-    --deprecated-card-bg: #12141F63;
-    --background-floating: #101320;
-    --deprecated-quickswitcher-input-background:#101320;
+    --deprecated-card-bg: #1E1E1E;
+    --background-floating: #131313;
+    --deprecated-quickswitcher-input-background:#131313;
     --elevation-low: none;
-    --scrollbar-auto-thumb: #121722;
-    --scrollbar-auto-track: #191F2E;
-    --scrollbar-thin-thumb: #141925;
-    --activity-card-background: #101320;
+    --scrollbar-auto-thumb: #161616;
+    --scrollbar-auto-track: #1E1E1E;
+    --scrollbar-thin-thumb: #181818;
+    --activity-card-background: #131313;
 }
  
 .theme-light {
